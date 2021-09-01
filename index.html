@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cocktail</title>
+    <!-- bootstap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 class="text-center text-info">Seache the juice name here</h1>
+    <!-- input and search here  -->
+    <div class="input-group mb-3 w-75 mx-auto mt-5">
+        <input id="inputId" type="text" class="form-control " placeholder="Seach the juice name here" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="dataLoad()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+      </div>
+      <!-- click card  -->
+      <div class="w-25 mx-auto" id="cardID">
+
+      </div>
+      <!-- card  -->
+      <div id="container" class="row row-cols-1 row-cols-md-4 g-4">
+      </div>
+    <!-- bootstpa js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
